@@ -2,8 +2,8 @@ services:
   github-actions-runner:
     image: evl8/esd-github-actions-runner
     environment:
-      - URL=https://github.com/MonaLewin/esd-github-actions-assignment
-      - TOKEN=AWJ7THSULK5WDZBEKBWPLC3HJWOVC
+      - URL= https://github.com/MonaLewin/esd-github-actions-assignment
+      - TOKEN= AWJ7THSULK5WDZBEKBWPLC3HJWOVC
     networks:
       - esd
   nexus:
